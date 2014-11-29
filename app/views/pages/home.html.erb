@@ -1,8 +1,141 @@
 <div class="jumbotron center">
-  <h1>Welcome to my app!</h1>
-  <p>
-     <%= link_to "Log in", "#" ,class: "btn btn-primary btn-lg" %>
-     <%= link_to "Sign up","#", class: "btn btn-primary btn-lg" %>
+  <h1>小胖带你购遍美利坚</h1>
+  <% if user_signed_in? %>
+  # do something
+  <% else %>
+    <p>
+      <%= link_to "Log in", new_user_session_path ,class: "btn btn-primary btn-lg" %>
+      <%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-lg" %>
   </p>
-
+ <% end %>
 </div>
+
+
+<div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      
+      <img src="http://beilou-photos.b0.upaiyun.com/details/f8/99/2f/f8992f94-77a5-49b1-82b1-522149e82238"/>
+      <div class="caption">
+        <h3>拉尔夫·劳伦卫衣</h3>
+        <p>
+</br>
+【品牌介绍】：拉尔夫·劳伦(RALPH LAUREN)是时装界的“美国经典”。拉尔夫·劳伦是有着浓浓美国气息的高品味时装品牌，款式高度风格化。除时装外，拉夫·劳伦（Ralph Lauren）品牌还包括香水、童装、家居等产品。无论是服装还是家具，无论是香水还是器皿，都迎合了顾客对上层社会完美生活的向往。或者正如Ralph Lauren（拉夫·劳伦 ）先生本人所说：“我设计的目的就是去实现人们心目中的美梦——可以想象到的最好现实。” 
+</br>
+【商品中文】：RALPH LAUREN 拉尔夫·劳伦 女款修身休闲裤 裤脚拉链 侧兜设计 蓝色 
+        </p>
+        <p>
+        	<a href="https://d2i5khuir6rc3s.cloudfront.net/media/user_profile_pic/87a59f0b-1082-4a03-8d86-9a64eb72bd75.jpg" class="btn btn-primary" role="button">查看</a>
+        </p>
+
+      </div>
+    </div>
+
+
+
+
+
+
+<div class="content-container" id="fashionista">
+    <div class="section">
+        <h2>START SHOPPING</h2>
+       
+        <p class="sub-header">Let our stylists show you how they make it work.</p>
+        <div class="listing">
+
+<table border="1">
+<tr>
+<th>Heading</th>
+<th>Another Heading</th>
+</tr>
+<tr>
+<td>
+	<a href="/fashionistas/mengsb/">
+    <div class="stylist">
+        <div class="stylist-img"><img src="https://d2i5khuir6rc3s.cloudfront.net/media/user_profile_pic/d9760471-20b3-4012-bdf2-624a50d3f5ba.jpg" class="img-responsive"/></div>
+        <div class="info">
+            <h3>Mengshi</h3>
+            
+            <p class="stylist-text">L.A, CA</p>
+            
+            <p class="stylist-tagline">Style: because personality isn&#39;t the first thing people see.</p>
+        </div>
+    </div>
+</a> 
+
+</td>
+<td>
+	 <a href="/fashionistas/mengsb/">
+    <div class="stylist">
+        <div class="stylist-img"><img src="https://d2i5khuir6rc3s.cloudfront.net/media/user_profile_pic/d9760471-20b3-4012-bdf2-624a50d3f5ba.jpg" class="img-responsive"/></div>
+        <div class="info">
+            <h3>Mengshi</h3>
+            
+            <p class="stylist-text">L.A, CA</p>
+            
+            <p class="stylist-tagline">Style: because personality isn&#39;t the first thing people see.</p>
+        </div>
+    </div>
+</a>  
+
+</td>
+</tr>
+<tr>
+<td>
+    <a href="/fashionistas/fengwan/">
+    <div class="stylist">
+        <div class="stylist-img"><img src="https://d2i5khuir6rc3s.cloudfront.net/media/user_profile_pic/9b0ca770-acd7-4c05-a523-5d22eeb0273d.jpg" class="img-responsive"/></div>
+        <div class="info">
+            <h3>Fengwan</h3>
+            
+            <p class="stylist-text">L.A, CA</p>
+            
+            <p class="stylist-tagline">I am willing to try anything. My favorite style is effortless, edgy and fresh. </p>
+        </div>
+    </div>
+</a>
+</td>
+<td>
+	<a href="/fashionistas/mengsb/">
+    <div class="stylist">
+        <div class="stylist-img"><img src="https://d2i5khuir6rc3s.cloudfront.net/media/user_profile_pic/d9760471-20b3-4012-bdf2-624a50d3f5ba.jpg" class="img-responsive"/></div>
+        <div class="info">
+            <h3>Mengshi</h3>
+            
+            <p class="stylist-text">L.A, CA</p>
+            
+            <p class="stylist-tagline">Style: because personality isn&#39;t the first thing people see.</p>
+        </div>
+    </div>
+    </a>
+
+</td>
+</tr>
+</table>
+
+
+
+
+
+
+
+
+
+            
+                
+                    
+
+
+                
+         
+                
+                   
+  
+
+
+  </div>
+</div>
+
+
+
+
